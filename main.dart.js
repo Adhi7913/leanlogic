@@ -41987,31 +41987,31 @@ s=B.bk(g,h,t.w).w.a.a
 g=s<=360
 r=g?2:3
 q=s<=600
-if(g)p=12
-else p=q?14:20
-if(g)o=12
-else o=q?14:20
-if(g)n=8
-else n=q?9:12
+if(g)p=10
+else p=q?12:20
+if(g)o=10
+else o=q?12:20
+if(g)n=6
+else n=q?7:12
 m=B.em(A.E,2)
-if(g)l=22
-else l=q?24:30
+if(g)l=18
+else l=q?20:30
 n=B.cb(B.eX(c,A.E,h,l),A.a2,new B.bv(A.ab,h,m,h,h,h,A.aT),h,h,new B.an(n,n,n,n),h)
-if(g)m=10
-else m=q?14:20
+if(g)m=8
+else m=q?10:20
 m=B.d5(h,h,m)
-if(g)l=15
-else l=q?16:18
+if(g)l=14
+else l=q?15:18
 l=B.aV(a,h,h,h,h,B.br().$4$color$fontSize$fontWeight$letterSpacing(A.E,l,A.br,0.8),h,h)
-if(g)k=4
-else k=q?6:8
+if(g)k=3
+else k=q?4:8
 k=B.d5(h,k,h)
-if(g)j=12
-else j=q?13:14
+if(g)j=11
+else j=q?12:14
 i=t.p
-j=B.c5(new B.eE(A.cP,h,h,B.bT(B.a([l,k,B.aV(b,r,A.ba,h,h,B.br().$3$color$fontSize$height(A.E,j,1.5),h,h)],i),A.aj,A.Q,A.d_),h),1)
-if(g)g=18
-else g=q?20:25
+j=B.c5(new B.eE(A.cP,h,h,B.bT(B.a([l,k,B.aV(b,r,A.ba,h,h,B.br().$3$color$fontSize$height(A.E,j,1.4),h,h)],i),A.aj,A.Q,A.d_),h),1)
+if(g)g=16
+else g=q?18:25
 return new B.Ev(B.fe(d,B.cK(B.a([n,m,j,B.eX(A.t3,A.E,h,g)],i),A.ak,A.Q,A.Z),!0,A.b2,e,new B.an(p,o,p,o)),h)},
 Ku(a,b,c,d){var s=null
 return B.fe(s,B.cK(B.a([B.eX(b,A.E,s,22),A.f4,B.c5(B.aV(a,s,s,s,s,B.br().$3$color$fontSize$fontWeight(A.E,15,A.ca),s,s),1),A.QD],t.p),A.ak,A.Q,A.Z),!0,A.b2,d,A.Pk)}}
@@ -42086,9 +42086,9 @@ return new B.tJ(new B.ag5(s,12,12,r),q,A.b2,A.bC,!1,p,!1,A.kB,!0,p,3,A.au,p,p,A.
 $S:290}
 B.amf.prototype={
 $0(){var s=this.a
-if(s<=340)return 0.9
-if(s<=400)return 2.2
-if(s<=600)return 2.6
+if(s<=340)return 3.2
+if(s<=400)return 3.5
+if(s<=600)return 3.8
 if(s<=900)return 1.8
 return 2.4},
 $S:99}
